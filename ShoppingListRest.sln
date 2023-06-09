@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingListRest", "ShoppingListRest\ShoppingListRest.csproj", "{DBFF7BE4-881F-42AD-B8D5-2A9A179FE1CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingListRestTests", "ShoppingListRestTests\ShoppingListRestTests.csproj", "{2DE0954A-6BE3-482F-A099-32FDFC913C43}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFF7BE4-881F-42AD-B8D5-2A9A179FE1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFF7BE4-881F-42AD-B8D5-2A9A179FE1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFF7BE4-881F-42AD-B8D5-2A9A179FE1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFF7BE4-881F-42AD-B8D5-2A9A179FE1CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE0954A-6BE3-482F-A099-32FDFC913C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE0954A-6BE3-482F-A099-32FDFC913C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE0954A-6BE3-482F-A099-32FDFC913C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE0954A-6BE3-482F-A099-32FDFC913C43}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D471EE-7F60-4026-81B0-1B40F48832F3}
+	EndGlobalSection
+EndGlobal
