@@ -24,6 +24,7 @@ namespace ShoppingListRest.Controllers
         [EnableCors("AllowAll")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         [HttpGet]
         public ActionResult<IEnumerable<ShoppingItem>> Get([FromHeader] int? price,
     [FromQuery] string? namefilter,
